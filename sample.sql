@@ -8,6 +8,7 @@ BEGIN
          INSERT INTO temp VALUES (i, x, 'i is odd');
       END IF;
       x := x + 100;
+      x:=1;
    END LOOP;
    COMMIT;
 END;
