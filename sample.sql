@@ -9,7 +9,6 @@ BEGIN
       END IF;
       x := x + 100;
       x:=1;
-Exception
    END LOOP;
    COMMIT;
 END;
